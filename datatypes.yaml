@@ -27,7 +27,7 @@
 
   - name: print tariner 
     ansible.builtin.debug:
-      msg: "trainer: {{trainer}}"
+      msg: "trainer: {{Trainer}}"
 
   
 
