@@ -6,5 +6,9 @@
     Duration: 1
   tasks:
   - name: wishing
+    vars:
+      course: Devops with AWS
+      name: siddhu and sai
+      Duration: 5
     ansible.builtin.debug:
       msg: "Hi, I am learning {{course}}, Trainer is {{name}} Duration is {{Duration}} month"
