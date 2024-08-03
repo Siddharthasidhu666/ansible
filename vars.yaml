@@ -1,6 +1,6 @@
 name: to print the statements
 hosts: web
 tasks:
-  - name: wishing
-    ansible.builtin.debug:
-      msg:"Hi, I am learning Devops, Trainer is siddhu, Duration is 1 month"
+- name: wishing
+  ansible.builtin.debug:
+    msg:"Hi, I am learning Devops, Trainer is siddhu Duration is 1 month"
