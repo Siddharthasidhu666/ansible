@@ -1,5 +1,5 @@
 name: to print the statements
-hosts: web
+hosts: localhost
 tasks:
 - name: wishing
   ansible.builtin.debug:
