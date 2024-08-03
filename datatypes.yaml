@@ -1,0 +1,23 @@
+- name: datatypes
+  hosts: localhost
+  vars:
+    Name: siddhu
+    skills:
+    - linux
+    - Devops
+    - python
+    Exp:
+      Linux: 6
+      Devops: 7
+      python: 6
+    Trainer: true # boolean
+
+  tasks:
+  - name: print name
+    ansible.builtin.debug:
+      msg: "{{Name}}"
+
+
+
+
+      
