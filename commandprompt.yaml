@@ -1,6 +1,6 @@
 - name: to print the statements
   hosts: localhost
-  vars_prmots:
+  vars_prompt:
   - name: USERNAME
     prompt: Please enter your username
     private: false # user can see what they are entering
