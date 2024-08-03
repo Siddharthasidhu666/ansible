@@ -15,7 +15,22 @@
   tasks:
   - name: print name
     ansible.builtin.debug:
-      msg: "{{Name}}"
+      msg: "name: {{Name}}"
+
+  - name: print skills
+    ansible.builtin.debug:
+      msg: "skills"": {{skills}}"
+
+  - name: print exp
+    ansible.builtin.debug:
+      msg: "exp"": {{Exp}}"
+
+  - name: print tariner 
+    ansible.builtin.debug:
+      msg: "trainer"": {{trainer}}"
+
+  
+
 
 
 
