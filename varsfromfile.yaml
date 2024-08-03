@@ -1,0 +1,7 @@
+- name: to print the statements
+  hosts: localhost
+  vars_files: variables.yaml
+  tasks:
+  - name: wishing
+    ansible.builtin.debug:
+      msg: "Hi, I am learning Devops, Trainer is siddhu Duration is 1 month"
