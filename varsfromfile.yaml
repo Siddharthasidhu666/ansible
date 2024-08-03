@@ -4,4 +4,4 @@
   tasks:
   - name: wishing
     ansible.builtin.debug:
-      msg: "Hi, I am learning Devops, Trainer is siddhu Duration is 1 month"
+      msg: "Hi, I am learning {{course}}, Trainer is {{name}} Duration is {{Duration}} month"
