@@ -19,15 +19,15 @@
 
   - name: print skills
     ansible.builtin.debug:
-      msg: "skills"": {{skills}}"
+      msg: "skills: {{skills}}"
 
   - name: print exp
     ansible.builtin.debug:
-      msg: "exp"": {{Exp}}"
+      msg: "experience : {{Exp}}"
 
   - name: print tariner 
     ansible.builtin.debug:
-      msg: "trainer"": {{trainer}}"
+      msg: "trainer: {{trainer}}"
 
   
 
